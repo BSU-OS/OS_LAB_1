@@ -37,27 +37,65 @@ namespace sl {
 		return Number(a.getValue() * b.getValue());
 	}
 
-	Number& Number::operator+=(Number& number)
+	bool operator==(Number a, Number b)
+	{
+		return a.getValue() == b.getValue();
+	}
+
+	bool operator!=(Number a, Number b)
+	{
+		return !(a == b);
+	}
+
+	bool operator<(Number a, Number b)
+	{
+		return a.getValue() < b.getValue();
+	}
+
+	bool operator<=(Number a, Number b)
+	{
+		return a.getValue() <= b.getValue();
+	}
+
+	bool operator>(Number a, Number b)
+	{
+		return !(a <= b);
+	}
+
+	bool operator>=(Number a, Number b)
+	{
+		return !(a < b);
+	}
+
+	Number& Number::operator+=(const Number& number)
 	{
 		value += number.value;
 		return *this;
 	}
 
-	Number& Number::operator-=(Number& number)
+	Number& Number::operator-=(const Number& number)
 	{
 		value -= number.value;
 		return *this;
 	}
 
-	Number& Number::operator/=(Number& number)
+	Number& Number::operator/=(const Number& number)
 	{
 		value /= number.value;
 		return *this;
 	}
 
-	Number& Number::operator*=(Number& number)
+	Number& Number::operator*=(const Number& number)
 	{
 		value *= number.value;
+		return *this;
+	}
+
+	Number& Number::operator=(const Number& number)
+	{
+		if (this != &number) {
+			value = number.value;
+		}
 		return *this;
 	}
 
