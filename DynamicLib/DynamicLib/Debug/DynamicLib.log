@@ -1,0 +1,35 @@
+﻿  Vector2D.cpp
+D:\c++_progects\OS\Lab1\DynamicLib\DynamicLib\Vector2D.h(12,14): warning C4251: 'dl::Vector2D::X': class 'sl::Number' needs to have dll-interface to be used by clients of class 'dl::Vector2D'
+D:\c++_progects\OS\Lab1\StaticLib\StaticLib\Number.h(7): message : see declaration of 'sl::Number'
+D:\c++_progects\OS\Lab1\DynamicLib\DynamicLib\Vector2D.h(12,17): warning C4251: 'dl::Vector2D::Y': class 'sl::Number' needs to have dll-interface to be used by clients of class 'dl::Vector2D'
+D:\c++_progects\OS\Lab1\StaticLib\StaticLib\Number.h(7): message : see declaration of 'sl::Number'
+D:\c++_progects\OS\Lab1\DynamicLib\DynamicLib\Vector2D.cpp(5,2): warning C4273: 'dl::Vector2D::~Vector2D': inconsistent dll linkage
+D:\c++_progects\OS\Lab1\DynamicLib\DynamicLib\Vector2D.h(14,4): message : see previous definition of '{dtor}'
+D:\c++_progects\OS\Lab1\DynamicLib\DynamicLib\Vector2D.cpp(7,23): warning C4273: 'dl::Vector2D::Vector2D': inconsistent dll linkage
+D:\c++_progects\OS\Lab1\DynamicLib\DynamicLib\Vector2D.h(15,3): message : see previous definition of '{ctor}'
+D:\c++_progects\OS\Lab1\DynamicLib\DynamicLib\Vector2D.cpp(13,49): warning C4273: 'dl::Vector2D::Vector2D': inconsistent dll linkage
+D:\c++_progects\OS\Lab1\DynamicLib\DynamicLib\Vector2D.h(16,3): message : see previous definition of '{ctor}'
+D:\c++_progects\OS\Lab1\DynamicLib\DynamicLib\Vector2D.cpp(19,47): warning C4273: 'dl::Vector2D::Vector2D': inconsistent dll linkage
+D:\c++_progects\OS\Lab1\DynamicLib\DynamicLib\Vector2D.h(17,3): message : see previous definition of '{ctor}'
+D:\c++_progects\OS\Lab1\DynamicLib\DynamicLib\Vector2D.cpp(25,2): warning C4273: 'dl::Vector2D::getX': inconsistent dll linkage
+D:\c++_progects\OS\Lab1\DynamicLib\DynamicLib\Vector2D.h(18,14): message : see previous definition of 'getX'
+D:\c++_progects\OS\Lab1\DynamicLib\DynamicLib\Vector2D.cpp(30,2): warning C4273: 'dl::Vector2D::getY': inconsistent dll linkage
+D:\c++_progects\OS\Lab1\DynamicLib\DynamicLib\Vector2D.h(19,14): message : see previous definition of 'getY'
+D:\c++_progects\OS\Lab1\DynamicLib\DynamicLib\Vector2D.cpp(35,2): warning C4273: 'dl::Vector2D::setX': inconsistent dll linkage
+D:\c++_progects\OS\Lab1\DynamicLib\DynamicLib\Vector2D.h(20,8): message : see previous definition of 'setX'
+D:\c++_progects\OS\Lab1\DynamicLib\DynamicLib\Vector2D.cpp(40,2): warning C4273: 'dl::Vector2D::setY': inconsistent dll linkage
+D:\c++_progects\OS\Lab1\DynamicLib\DynamicLib\Vector2D.h(21,8): message : see previous definition of 'setY'
+D:\c++_progects\OS\Lab1\DynamicLib\DynamicLib\Vector2D.cpp(45,2): warning C4273: 'dl::Vector2D::operator +=': inconsistent dll linkage
+D:\c++_progects\OS\Lab1\DynamicLib\DynamicLib\Vector2D.h(22,13): message : see previous definition of '+='
+D:\c++_progects\OS\Lab1\DynamicLib\DynamicLib\Vector2D.cpp(52,2): warning C4273: 'dl::Vector2D::getF': inconsistent dll linkage
+D:\c++_progects\OS\Lab1\DynamicLib\DynamicLib\Vector2D.h(23,14): message : see previous definition of 'getF'
+D:\c++_progects\OS\Lab1\DynamicLib\DynamicLib\Vector2D.cpp(57,2): warning C4273: 'dl::Vector2D::getR': inconsistent dll linkage
+D:\c++_progects\OS\Lab1\DynamicLib\DynamicLib\Vector2D.h(24,14): message : see previous definition of 'getR'
+D:\c++_progects\OS\Lab1\DynamicLib\DynamicLib\Vector2D.cpp(61,2): warning C4273: 'dl::operator <<': inconsistent dll linkage
+D:\c++_progects\OS\Lab1\DynamicLib\DynamicLib\Vector2D.h(25,39): message : see previous definition of '<<'
+D:\c++_progects\OS\Lab1\DynamicLib\DynamicLib\Vector2D.cpp(66,2): warning C4273: 'dl::operator >>': inconsistent dll linkage
+D:\c++_progects\OS\Lab1\DynamicLib\DynamicLib\Vector2D.h(26,39): message : see previous definition of '>>'
+D:\c++_progects\OS\Lab1\DynamicLib\DynamicLib\Vector2D.cpp(74,2): warning C4273: 'dl::operator +': inconsistent dll linkage
+D:\c++_progects\OS\Lab1\DynamicLib\DynamicLib\Vector2D.h(28,26): message : see previous definition of '+'
+     Creating library D:\c++_progects\OS\Lab1\DynamicLib\Debug\DynamicLib.lib and object D:\c++_progects\OS\Lab1\DynamicLib\Debug\DynamicLib.exp
+  DynamicLib.vcxproj -> D:\c++_progects\OS\Lab1\DynamicLib\Debug\DynamicLib.dll
